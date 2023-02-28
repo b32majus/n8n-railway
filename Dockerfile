@@ -5,4 +5,6 @@ USER root
 WORKDIR /home/node/packages/cli
 ENTRYPOINT []
 
-CMD ["n8n"]
+COPY ./entrypoint.sh /
+RUN chmod +x /entrypoint.sh
+CMD ["/entrypoint.sh"]
