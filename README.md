@@ -1,6 +1,6 @@
 # n8n-railway
 
-<!-- TODO: Add One Click Deployment for Railway -->
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/6H_pGd?referralCode=-YSBwv)
 
 ![n8n](./n8n_logo.png)
 
