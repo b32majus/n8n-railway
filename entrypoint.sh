@@ -23,7 +23,7 @@ export DB_POSTGRESDB_USER=$N8N_DB_USER
 export DB_POSTGRESDB_PASSWORD=$N8N_DB_PASSWORD
 
 # set railway specific env
-export WEBHOOK_URL=$RAILWAY_STATIC_URL
+export WEBHOOK_URL=https://$RAILWAY_STATIC_URL
 
 # kickstart nodemation
 n8n
