@@ -1,0 +1,14 @@
+{
+  "name": "n8n-simple",
+  "version": "1.0.0",
+  "description": "N8N simple deployment",
+  "scripts": {
+    "start": "npx n8n start"
+  },
+  "dependencies": {
+    "n8n": "latest"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
